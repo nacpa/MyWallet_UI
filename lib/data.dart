@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 Color PrimaryColor=Color(0xFFCADCED);
+Color PurpalColor=Color(0xFF472A6A);
 
 List<BoxShadow> CustomShadow = [
   BoxShadow(
@@ -11,7 +12,6 @@ List<BoxShadow> CustomShadow = [
   BoxShadow(
       color: Colors.blue[900]!.withOpacity(.2),
       spreadRadius: 2,
-
       offset: Offset(7, 7),
-      blurRadius: 20)
+      blurRadius: 30)
 ];

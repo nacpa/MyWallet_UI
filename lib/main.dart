@@ -3,6 +3,7 @@ import 'package:flutter_ui/Widgets/header.dart';
 import 'package:flutter_ui/data.dart';
 
 import 'Diminson.dart';
+import 'Widgets/Card.dart';
 
 void main() {
   runApp(MyWallet());
@@ -15,7 +16,7 @@ class MyWallet extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(fontFamily: "Josefin Sans"),
+        theme: ThemeData(fontFamily: "Kdam Thmor Pro"),
         home: Scaffold(
             backgroundColor: PrimaryColor,
             body: Column(
@@ -26,8 +27,10 @@ class MyWallet extends StatelessWidget {
                   color: PrimaryColor,
                   child: WalletHeader(),
                 ),
-                Expanded(child: Container()),
+                Expanded(child: Card_Weigets()),
                 Expanded(child: Container())
+
+
               ],
             )));
   }

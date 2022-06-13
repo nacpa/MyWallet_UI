@@ -63,6 +63,11 @@ flutter:
     - assets/
 
   fonts:
+    - family: Kdam Thmor Pro
+      fonts:
+        - asset: fonts/KdamThmorPro-Regular.ttf
+          weight: 200
+
     - family: Josefin Sans
       fonts:
         - asset: fonts/JosefinSans-Italic-VariableFont_wght.ttf
