@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/Widgets/Expens.dart';
 import 'package:flutter_ui/Widgets/header.dart';
 import 'package:flutter_ui/data.dart';
 
@@ -27,8 +28,13 @@ class MyWallet extends StatelessWidget {
                   color: PrimaryColor,
                   child: WalletHeader(),
                 ),
-                Expanded(child: Card_Weigets()),
-                Expanded(child: Container())
+                Expanded(child: Padding(
+                  padding:  EdgeInsets.only(left: Dim.Hight10),
+                  child: Card_Weigets(),
+                )),
+                Expanded(child: Container(margin: EdgeInsets.only(left: Dim.Hight10,right: Dim.Hight20),
+
+                  child: Expns(),))
 
 
               ],

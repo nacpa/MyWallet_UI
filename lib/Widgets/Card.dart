@@ -10,7 +10,7 @@ class Card_Weigets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Column(mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text("Selected Card",style: TextStyle(wordSpacing: 3,letterSpacing: 2,fontFamily: "Josefin Sans",fontWeight: FontWeight.w900,fontSize: 20),),
         Container(height: Dim.Hight100*2.7,
@@ -56,7 +56,15 @@ class Card_Weigets extends StatelessWidget {
                       ],
                     ),
                   );
-                }))
+                })),
+        SizedBox(height: Dim.Hight20/4,),
+        Text(
+          "Expences",
+          style: TextStyle(
+              fontSize: Dim.Hight30,
+              fontWeight: FontWeight.w900,
+              fontFamily: "Josefin Sans"),
+        ),
       ],
     );
   }
