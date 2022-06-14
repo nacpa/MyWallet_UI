@@ -9,6 +9,13 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="Dart Packages" level="project" />
+=======
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="Dart Packages" level="project" />
+>>>>>>> 9f1f5ff6c07eaa6654542bf2f75e14c7d25b23cb
+>>>>>>> 4e0a019909d79c519d72987b39d0052143adf289
   </component>
 </module>
