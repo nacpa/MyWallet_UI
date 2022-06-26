@@ -9,7 +9,7 @@ Color PurpalColor=Color(0xFF472A6A);
 
 List<BoxShadow> CustomShadow = [
   BoxShadow(
-      color: Colors.white.withOpacity(0.5), spreadRadius: -5, offset: Offset(-5, -5), blurRadius: 30),
+      color: Colors.white.withOpacity(0.5), spreadRadius: -5, offset: Offset(-5, -5), blurRadius: 28),
   BoxShadow(
       color: Colors.blue[900]!.withOpacity(.2),
       spreadRadius: 2,
